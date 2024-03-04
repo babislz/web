@@ -1,4 +1,38 @@
-.filmes{
-    width: 10%;
-    margin-right: 14cm;
+
+
+.classificacao-indicativa {
+    width: 24px;
 }
+
+.titulo-filmes {
+    color: #4d4d4d;
+}
+
+.cinema-titulo {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    background-image: image-set("bosch cabecalho.png");
+}
+
+.conteudo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-bottom: #949494 solid 2px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.filmes {
+    width: 12%;
+    float: left;
+    clear: both;
+    margin-left: 20px;
+}
+
+body{
+    background-color: #c5d7df;
+}
+
+
