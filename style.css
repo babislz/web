@@ -1,4 +1,8 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .classificacao-indicativa {
     width: 24px;
@@ -15,7 +19,60 @@
     background-image: image-set("bosch cabecalho.png");
 }
 
+body{
+    background-color: #c5d7df;
+}
+
+
+.conteudo-body {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 60%;
+}
+
+
+.todos-filmes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px
+}
+
+.filmes-cartaz {
+    width: auto;
+    height: 310px;
+}
+
+.filmes-cartaz > img {
+    object-fit: cover;
+    height: 100%;
+}
+
 .conteudo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-bottom: #949494 solid 2px;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .conteudo {
     float: left;
     margin-left: 40px;
     margin-top: 10px;
@@ -28,11 +85,29 @@
     width: 12%;
     float: left;
     clear: both;
-    margin-left: 20px;
+    margin-left: 20px; */
+/* } */
+
+
+
+/* .todos-filmes {
+    display:  flex;
+    align-items: center;
+    justify-content: flex-start;
+} */
+/* 
+.filmes-cartaz {
+    width: auto;
+    height: 100%;
 }
 
-body{
-    background-color: #c5d7df;
-}
+.filmes-cartaz>img {
+    object-fit: fill;
 
+} */
 
+/* .conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
